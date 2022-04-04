@@ -23,6 +23,7 @@ namespace ConsoleApp2
         {
             for (int i = 0; i < 3; i++)
             {
+                Console.WriteLine("Хуй");
                 Console.WriteLine("цикл {0}, выполнение внутри потока из пула {1}",
                     i, Thread.CurrentThread.ManagedThreadId);
                 Thread.Sleep(50);
